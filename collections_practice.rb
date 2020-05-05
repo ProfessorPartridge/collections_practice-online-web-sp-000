@@ -73,7 +73,7 @@ def add_s(array)
     array_to_return.push(string)
   end
   }
-  array_to_return[1] = "feet"
+  array_to_return.insert(1, "feet")
   array_to_return
 end
 
