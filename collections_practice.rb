@@ -74,6 +74,7 @@ def add_s(array)
   end
   }
   array_to_return[1] = "feet"
+  array_to_return
 end
 
 
