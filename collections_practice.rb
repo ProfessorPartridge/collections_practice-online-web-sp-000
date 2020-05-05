@@ -66,9 +66,11 @@ def sum_array(int_array)
 end
 
 def add_s(array)
+  array_to_return
   array.each_with_index{|string, index|
   if index != 1
     string + "s"
+    array_to_return.push(string)
   end
   }
 end
