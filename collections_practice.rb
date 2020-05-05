@@ -31,3 +31,7 @@ def swap_elements(array)
   new_array = array.delete("ashley")
   array.push(second_index)
 end
+
+def reverse_array
+  
+end
