@@ -28,6 +28,6 @@ end
 
 def swap_elements(array)
   placeholder = array[1]
-  new array = array.delete("ashley")
+  new_array = array.delete("ashley")
   array.push(placeholder)
 end
