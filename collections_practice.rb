@@ -66,10 +66,7 @@ def sum_array(int_array)
 end
 
 def add_s(array)
-  second_element = array[1]
-  array.map{|string|
-    if string
-  }
+  array.each_with_index{|string, index|}
 end
 
 
