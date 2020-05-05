@@ -59,7 +59,9 @@ end
 
 def sum_array(int_array)
   sum  = 0
-  int_array.map{|int| sum + int}
+  int_array.each do |int|
+    sum += int
+  end
   sum
 end
 
