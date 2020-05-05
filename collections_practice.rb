@@ -56,7 +56,7 @@ def sum_array(int_array)
 end
 
 def add_s(array)
-  
+  second_element = array[1]
 end
 
 
