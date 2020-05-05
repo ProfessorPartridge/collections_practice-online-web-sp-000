@@ -27,7 +27,7 @@ def sort_array_char_count(string_array)
 end
 
 def swap_elements(array)
-  placeholder = array[1]
+  second_index = array[1]
   new_array = array.delete("ashley")
-  array.push(placeholder)
+  array.push(second_index)
 end
