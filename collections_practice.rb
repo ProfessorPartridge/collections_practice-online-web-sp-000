@@ -40,7 +40,7 @@ def kesha_maker(string_array)
   string_array.each do |index|
     length = index.length
     i = 0
-    while i < 0
+    while i < length
       index[i] = "$"
       i += 3
     end
