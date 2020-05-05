@@ -42,7 +42,7 @@ def kesha_maker(string_array)
     i = 1
     while i < length
       index[i] = "$"
-      i += 3
+      i += 4
     end
   end
 end
