@@ -52,7 +52,7 @@ def find_a(string_array)
   string_array.map {|string| 
   if string.start_with?("a")
     array_to_return.push(string)
-  endf
+  end
   }
 end
 
