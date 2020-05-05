@@ -48,7 +48,8 @@ def kesha_maker(string_array)
 end
 
 def find_a(string_array)
-  string_array.map {|string| string.start_with?("a")}
+  array_to_return = []
+  string_array.map {|string| string.start_with?("a") >> array_to_return}
 end
 
 def sum_array(int_array)
