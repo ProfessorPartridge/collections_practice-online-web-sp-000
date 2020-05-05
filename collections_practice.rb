@@ -58,7 +58,9 @@ def find_a(string_array)
 end
 
 def sum_array(int_array)
-  
+  sum  = 0
+  int_array.map{|int| sum + int}
+  sum
 end
 
 def add_s(array)
