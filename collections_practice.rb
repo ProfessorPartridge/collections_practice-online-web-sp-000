@@ -49,7 +49,11 @@ end
 
 def find_a(string_array)
   array_to_return = []
-  string_array.map {|string| string.start_with?("a")}
+  string_array.map {|string| 
+  if string.start_with?("a")
+    array_to_return.push(string)
+  end
+  }
 end
 
 def sum_array(int_array)
