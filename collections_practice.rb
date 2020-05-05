@@ -54,6 +54,7 @@ def find_a(string_array)
     array_to_return.push(string)
   end
   }
+  array_to_return
 end
 
 def sum_array(int_array)
