@@ -67,6 +67,9 @@ end
 
 def add_s(array)
   second_element = array[1]
+  array.map{|string|
+    if string
+  }
 end
 
 
