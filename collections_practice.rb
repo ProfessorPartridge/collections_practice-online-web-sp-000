@@ -73,6 +73,7 @@ def add_s(array)
     array_to_return.push(string)
   end
   }
+  array_to_return
 end
 
 
